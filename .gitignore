@@ -1,0 +1,11 @@
+# Files the Tweaker writes when this folder is opened as a sky project; they belong to the author's
+# machine, not to the package.
+.tweaker/
+shadertoolsconfig.json
+
+# A package being written; never a finished one.
+*.partial
+
+# OS junk
+Thumbs.db
+desktop.ini

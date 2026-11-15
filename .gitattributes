@@ -1,0 +1,4 @@
+* text=auto
+
+# The baked noise is binary even where a heuristic would guess otherwise.
+*.dds binary
