@@ -1,4 +1,4 @@
-// Our Drafts Collides - two skies in one, split by the horizon.
+// Canvas - two skies in one, split by the horizon.
 //
 // Audiosurf pitches the camera down hard on any fast descent - up to about sixty degrees under the
 // horizon - and swings the track's bearing constantly. A sky designed as one dome is therefore a sky
@@ -49,7 +49,7 @@
 #include "sky_common.hlsli"
 
 /* @sky
-name    = Our Drafts Collides v2
+name    = Canvas
 version = 1
 
 group = Horizon

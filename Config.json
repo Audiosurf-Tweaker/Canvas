@@ -1,8 +1,7 @@
 {
-  // Generated from Our Drafts Collides v2.hlsl's @sky block by skyconv.
-  // See Docs/Internal/sky-package.md.
+  // Canvas: the manifest is maintained by hand; the shader lives in shaders/canvas.hlsl.
   "format": 1,
-  "name": "Our Drafts Collides v2",
+  "name": "Canvas",
   "version": 1,
   "shared": {
     // The sky's lights. Every layer binds to these rather than declaring its own, which is what
@@ -98,7 +97,7 @@
     {
       "id": "sky",
       "kind": "fullsky",
-      "shader": "shaders/Our Drafts Collides v2.hlsl",
+      "shader": "shaders/canvas.hlsl",
       // One octave of periodic value noise with its gradient, baked by harness/volbake from the
       // shader's own hash and interpolation. `upper_film` reads it instead of evaluating fifteen
       // noise3 per pixel; see the note above fbm3_grad in the shader.
